@@ -1,0 +1,28 @@
+$font-family-sans-serif: 'Inter', sans-serif;
+$dark:   #0A1437  ;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px,
+);
+
+
+$secondary: #0A1437;
+
+
+
+@media (min-width: 992px) { 
+    .alto-100{
+    height: 100vh;
+    }
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+//.aboutus{
+//background-image: url('../images/nc.png');
+//background-repeat: no-repeat;
+//background-position: 100% top;
